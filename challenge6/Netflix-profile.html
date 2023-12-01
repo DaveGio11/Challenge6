@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Profile</title>
+  </head>
+
+  <body>
+    <div class="bg-dark">
+      <header>
+        <img
+          src="Netflix-assets/assets/netflix_logo.png"
+          alt="
+      netflix_logo"
+          class="NetflixLogo"
+        />
+      </header>
+      <main class="container">
+        <div class="row overflow-hidden">
+          <div class="col-11 col-sm-10 col-md-7 col-7-lg mx-auto text-start">
+            <h1>
+              Edit Profile
+              <hr />
+            </h1>
+          </div>
+        </div>
+      </main>
+      <section class="container">
+        <div class="row overflow-hidden">
+          <div class="d-flex mx-auto">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-3 ms-auto">
+              <img src="Netflix-assets/assets/avatar.png" alt="avatar" class="avatarIcon" />
+            </div>
+            <div class="col-7 col-sm-6 col-md-4 col-lg-4 me-auto ms-0 d-flex flex-column">
+              <div class="bg-secondary p-1 mb-3 me-5">
+                <b>Strive Student</b>
+              </div>
+              <div>
+                <div class="row overflow-hidden">
+                  <div class="col-9 col-sm-7 col-md-7 col-lg-6 mb-3">
+                    <p class="mb-0">Languages</p>
+                    <a
+                      class="nav-link text-white dropdown-toggle d-flex align-items-center justify-content-between border border-secondary me-5 mx-0 px-1 py-0"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >English</a
+                    >
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Italiano</a></li>
+                      <li><a class="dropdown-item" href="#">Spagnolo</a></li>
+                      <li><a class="dropdown-item" href="#">Tedesco</a></li>
+                      <li><a class="dropdown-item" href="#">Portoghese</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row overflow-hidden">
+          <div class="d-flex mx-auto">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-3 ms-auto">
+              <div class="avatarIcon"></div>
+            </div>
+            <div class="col-7 col-sm-6 col-md-4 col-lg-4 me-auto ms-0 d-flex flex-column">
+              <p>Maturity Settings</p>
+              <div class="row overflow-hidden">
+                <div class="col-9 col-sm-7 col-md-7 col-lg-6 ms-2 bg-secondary p-1 mb-3">
+                  <p class="mb-0 fs-7">ALL MATURITY RATINGS</p>
+                </div>
+              </div>
+              <div>
+                <div class="row overflow-hidden">
+                  <div class="col-8 mb-3">
+                    <p class="fs-7">Show titles of all maturity ratings for this profile</p>
+                  </div>
+                  <div class="col-9 col-sm-7 col-md-7 col-lg-6 mb-3">
+                    <button type="button" class="btn btn-outline-secondary py-1 px-4">EDIT</button>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row overflow-hidden">
+          <div class="d-flex mx-auto">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-3 ms-auto">
+              <div class="avatarIcon"></div>
+            </div>
+            <div class="col-7 col-sm-6 col-md-4 col-lg-4 me-auto ms-0 d-flex flex-column">
+              <p>Autoplay controls</p>
+              <div class="row overflow-hidden">
+                <div class="col-12 ms-2 p-1">
+                  <div class="d-flex">
+                    <input type="checkbox" id="checkboxUno" class="me-1" />
+                    <label for="checkboxUno" class="fs-7">Autoplay next episodein a series on all devices</label>
+                  </div>
+                </div>
+                <div class="col-12 ms-2 p-1 mb-3">
+                  <div class="d-flex">
+                    <input type="checkbox" id="checkboxDue" class="me-1" />
+                    <label for="checkboxDue" class="fs-7">Autoplay previews while browsing on all devices</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="container text-center">
+        <div class="row overflow-hidden">
+          <div class="col-lg-7 mx-auto text-center">
+            <hr />
+            <div class="mt-4">
+              <button type="button" class="btn btn-outline-secondary py-1 px-4 mb-1">SAVE</button>
+              <button type="button" class="btn btn-outline-secondary py-1 px-4 mb-1">CANCEL</button>
+              <button type="button" class="btn btn-outline-secondary py-1 px-4 mb-1">DELETE PROFILE</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
