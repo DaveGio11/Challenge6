@@ -21,3 +21,12 @@ body {
 .avatarIcon {
   width: 30%;
 }
+
+.seleziona:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.7;
+  transform: scale(1.025);
+  position: relative;
+  z-index: 1;
+}
